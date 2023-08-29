@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <h1>Sistema</h1>
+        <h1>Next 13 Template</h1>
         <nav>
           <ul>
             <li>
