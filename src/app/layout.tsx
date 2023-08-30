@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Next Template",
@@ -15,16 +14,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <h1>Next 13 Template</h1>
-        <nav>
-          <ul>
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/users">Usuario</Link>
-            </li>
-          </ul>
-        </nav>
+
         {children}
       </body>
     </html>
